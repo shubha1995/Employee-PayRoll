@@ -208,3 +208,6 @@ select {
         align-items: flex-start;
     }
 }
+error-output {
+    font-size: 9px;
+}
