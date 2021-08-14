@@ -71,14 +71,12 @@ body {
     padding-bottom: 20px;
 }
 
-.row-content {
+.row-content{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
     align-items: center;
-    border: 0 solid green;
-    flex-wrap: wrap;
-    /* display:block; */
+    margin-bottom: 10px;
+    border:0px sold green;
 }
 
 .label {
@@ -222,6 +220,10 @@ select {
         align-items: flex-start;
     }
 }
+
 error-output {
-    font-size: 9px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
 }
